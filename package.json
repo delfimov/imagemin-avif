@@ -31,11 +31,11 @@
     "ava": "3.8.0"
   },
   "repository": {
-    "type": "git",
-    "url": ""
+    "type": "https",
+    "url": "https://github.com/delfimov/imagemin-avif.git"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/delfimov/imagemin-avif/issues"
   },
-  "homepage": ""
+  "homepage": "https://github.com/delfimov/imagemin-avif.git#readme"
 }
