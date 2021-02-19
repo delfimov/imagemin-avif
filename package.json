@@ -1,0 +1,41 @@
+{
+  "name": "imagemin-avif",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "gulp",
+    "avif",
+    "imagemin"
+  ],
+  "author": {
+    "email": "elfimov@gmail.com",
+    "name": "Dmitry Elfimov",
+    "url": "https://www.elfimov.ru/"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "0.27.1",
+    "plugin-error": "1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "7.20.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "ava": "3.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
