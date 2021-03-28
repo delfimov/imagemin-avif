@@ -1,4 +1,4 @@
-# imagemin-webp
+# imagemin-avif
 
 > Avif [imagemin](https://github.com/imagemin/imagemin) plugin. Uses [sharp](https://github.com/lovell/sharp).
 
@@ -21,7 +21,7 @@ const imageminAvif = require('imagemin-avif');
 
 ## API
 
-### imageminWebp(options?)
+### imageminAvif(options?)
 
 #### options
 
