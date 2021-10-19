@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "preversion": "",
+    "version": "",
+    "postversion": "git push && git push --tags"
   },
   "keywords": [
     "gulp",
