@@ -21,7 +21,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "sharp": "0.28.3",
+    "sharp": "0.29.1",
     "plugin-error": "1.0.1"
   },
   "devDependencies": {
