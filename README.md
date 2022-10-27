@@ -18,6 +18,39 @@ const imageminAvif = require('imagemin-avif');
 })();
 ```
 
+### How to use with Gulp
+```js
+import gulp from "gulp";
+import imagemin from "gulp-imagemin";
+import avif from "imagemin-avif";
+import gulpIf from "gulp-if";
+import rename from "gulp-rename";
+
+import config from "./gulpconfig";
+
+// your code here
+
+function buildImagesAvif(images, force) {
+  const isForce = typeof force !== "undefined" ? force : false;
+  return gulp
+    .src(images, { base: config.path.src.img })
+    .pipe(gulpIf(!isForce, changed(config.path.dst.img)))
+    .pipe(imagemin([avif({ quality: 50 })]))
+    .pipe(rename((path) => (path.extname += ".avif")))
+    .pipe(gulp.dest(config.path.dst.img));
+}
+
+const imagesAvif = () => {
+  return buildImagesAvif(`${config.path.src.img}**/*.*`);
+};
+
+export {
+    imagesAvif,
+    // your other tasks here
+};
+
+```
+
 
 ## API
 
